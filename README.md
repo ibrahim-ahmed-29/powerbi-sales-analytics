@@ -10,7 +10,7 @@ This project models a retail/e-commerce business scenario in Power BI, covering 
 - `dim_product`
 - `dim_geo`
 - `dim_campaign`
-- `dim_order_flags`
+- `dim_order_flag`
 - `dim_date`
 
 **Facts (6):**
@@ -19,7 +19,7 @@ This project models a retail/e-commerce business scenario in Power BI, covering 
 - `fact_campaign_spend`
 - `fact_promotion_coverage`
 - `fact_order_process`
-- `fact_sales_targets`
+- `fact_sales_target`
 
 ### Key modeling decisions
 - **Shared dimensions:** `dim_product` and `dim_campaign` are conformed across multiple fact tables, allowing cross-process analysis (e.g. product performance across both sales and promotions).
